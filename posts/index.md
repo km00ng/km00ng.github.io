@@ -33,7 +33,7 @@ comments: false
             <h4 class="service-heading"><p>GCP</p></h4>
             <p>Click to view details</p>
             <div class="text-muted">
-                <p id="awsDescription" class="hidden-description" style="display: none;">
+                <p id="gcpDescription" class="hidden-description" style="display: none;">
                     GCP 아키텍처를 구성한 뒤, 직접 생성하고 연결할 수 있습니다. 보안을 위해 VPC 및 서브넷을 생성하고, 역할과 정책을 구성할 수 있습니다.
                 </p>
             </div>
@@ -41,7 +41,7 @@ comments: false
 
         <!-- Docker -->
         <div class="col-12 col-sm-6 col-md-4 mb-4 service-item" onclick="toggleDescription('js')">
-            <img class="rounded-circle img-fluid" src="../assets/img/svc/docker.png" alt="Docker Icon" style="width: 100px; height: 100px;">
+            <img class="rounded-circle img-fluid" src="../assets/img/svc/docker.jpg" alt="Docker Icon" style="width: 100px; height: 100px;">
             <h4 class="service-heading"><p>Docker</p></h4>
             <p>Click to view details</p>
             <div class="text-muted">
@@ -158,13 +158,13 @@ comments: false
 
         <!-- New Skill 4 -->
         <div class="col-12 col-sm-4 mb-4 service-item">
-            <img class="rounded-circle img-fluid" src="../assets/img/svc/jenkins.png" alt="Service Icon" style="width: 100px; height: 100px;">
+            <img class="rounded-circle img-fluid" src="../assets/img/svc/jenkins.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
             <h4 class="service-heading"><p>Jnekins<br /><br /></p></h4>
         </div>
 
         <!-- New Skill 5 -->
         <div class="col-12 col-sm-4 mb-4 service-item">
-            <img class="rounded-circle img-fluid" src="../assets/img/svc/argocd.png" alt="Service Icon" style="width: 100px; height: 100px;">
+            <img class="rounded-circle img-fluid" src="../assets/img/svc/argocd.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
             <h4 class="service-heading"><p>ArgoCD</p></h4>
         </div>
 
@@ -176,8 +176,8 @@ comments: false
 
         <!-- New Skill 7 -->
         <div class="col-12 col-sm-4 mb-4 service-item">
-            <img class="rounded-circle img-fluid" src="../assets/img/svc/po.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
-            <h4 class="service-heading"><p>Postman</p></h4>
+            <img class="rounded-circle img-fluid" src="../assets/img/svc/slack.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
+            <h4 class="service-heading"><p>Slack</p></h4>
         </div>
 
         <!-- New Skill 8 -->
