@@ -85,11 +85,11 @@
                      <h2 id="summary">Summary</h2>
                      <div class="bottom-margin"></div>
                      
-                     <p>온라인 쇼핑몰<br>
+                     <p style="font-weight: normal;">온라인 쇼핑몰<br>
                      사용자는 페이지 접속 후, 사용자 정보와 구매할 도서 정보를 입력하게 됩니다.<br>
                      서버는 Docker image를 이용하여 K8s를 구축했습니다.<br>
-                     데이터베이스는 GCP를 이용하여 구축했습니다.<br>
-                     <a href="https://github.com/GoogleCloudPlatform/microservices-demo">Google Cloud Platform에서 제공하는 MicroService Demo</a>를 활용해 구축했습니다</p>
+                     데이터베이스는 GCP를 이용하여 구축했습니다.<br></p>
+                     <p><a href="https://github.com/GoogleCloudPlatform/microservices-demo">Google Cloud Platform에서 제공하는 MicroService Demo</a></p><p style="font-weight: normal;">를 활용해 구축했습니다</p>
                      
                      <p><br />
                      <br /></p>
@@ -127,26 +127,32 @@
 
                      <img src="../assets/img/boutique/architecture.jpg" alt="Boutique Architecture" style="width: 900px; height: 350px;">
 
-                     <p>GKE를 이용하여 마이크로 서비스를 배포합니다.<br>
+                     <p style="font-weight: normal;">GKE를 이용하여 마이크로 서비스를 배포합니다.<br>
                      개발계와 운영계를 VPC 레벨에서 분리했으며<br>
                      각 환경에는 하나의 클러스터 내 두개의 노드풀(Service, ArgoCD)로 구성되어있습니다.<br>
                      Kubernetes 내 리소스는 환경별 Bastion VM에서만 제어할 수 있습니다.<br>
                      데이터베이스는 Cloud SQL-PostgreSQL을 사용하며 환경과 목적에 따라 LB와 도메인을 구분하여 사용합니다.<br></p>
 
-                     <div class="bottom-margin"></div>
-                        
+                     <p><br />
+                     <br /></p>
+
                      <hr />
+
+                     <br />
 
                      <h2 id="Repo">Github Repository</h2>
                      <div class="bottom-margin"></div>
 
-                     <p>Terraform 코드와 Kubernetes yaml 파일 관리를 위한 Repository입니다.<br>
-                     Kustomize를 사용해 서비스의 이미지를 관리하고 배포합니다.<br>
-                     <a href="https://github.com/cat1544/ING_k8s">Terraform &amp; Kubernetes Manifests</a><br>
-                     Online Boutique 소스 코드와 Dockerfile 및 Cloudbuild.yaml 파일 관리를 위한 Repository입니다.<br>
-                     <a href="https://github.com/cat1544/ING">Online Boutique Source &amp; Build files</a><br></p>
+                     <p style="font-weight: normal;">Terraform 코드와 Kubernetes yaml 파일 관리를 위한 Repository입니다.<br>
+                     Kustomize를 사용해 서비스의 이미지를 관리하고 배포합니다.<br></p>
+                     <p>Link <a href="https://github.com/cat1544/ING_k8s">Terraform &amp; Kubernetes Manifests</a><br></p>
+                     <p style="font-weight: normal;">Online Boutique 소스 코드와 Dockerfile 및 Cloudbuild.yaml 파일 관리를 위한 Repository입니다.<br></p>
+                     <p>Link <a href="https://github.com/cat1544/ING">Online Boutique Source &amp; Build files</a><br></p>
 
                      <div class="bottom-margin"></div>
+
+                     <p><br />
+                     <br /></p>
 
                      <hr />
 
