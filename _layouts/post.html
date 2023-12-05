@@ -125,19 +125,33 @@
                      <h2 id="Architecture">Architecture</h2>
                      <div class="bottom-margin"></div>
 
-                     <img src="../assets/img/boutique/architecture.jpg" alt="Boutique Architecture" style="width: 900px; height: 300px;">
+                     <img src="../assets/img/boutique/architecture.jpg" alt="Boutique Architecture" style="width: 900px; height: 350px;">
 
                      <p>GKE를 이용하여 마이크로 서비스를 배포합니다.<br>
-                     개발계와 운영계를 VPC 레벨에서 분리했으며 각 환경에는 하나의 클러스터 내 두개의 노드풀(Service, ArgoCD)로 구성되어있습니다.<br>
+                     개발계와 운영계를 VPC 레벨에서 분리했으며<br>
+                     각 환경에는 하나의 클러스터 내 두개의 노드풀(Service, ArgoCD)로 구성되어있습니다.<br>
                      Kubernetes 내 리소스는 환경별 Bastion VM에서만 제어할 수 있습니다.<br>
                      데이터베이스는 Cloud SQL-PostgreSQL을 사용하며 환경과 목적에 따라 LB와 도메인을 구분하여 사용합니다.<br></p>
+
+                     <div class="bottom-margin"></div>
                         
                      <hr />
 
+                     <h2 id="Repo">Github Repository</h2>
+                     <div class="bottom-margin"></div>
 
+                     <p>Terraform 코드와 Kubernetes yaml 파일 관리를 위한 Repository입니다.<br>
+                     Kustomize를 사용해 서비스의 이미지를 관리하고 배포합니다.<br>
+                     <a href="https://github.com/cat1544/ING_k8s">Terraform &amp; Kubernetes Manifests</a><br>
+                     Online Boutique 소스 코드와 Dockerfile 및 Cloudbuild.yaml 파일 관리를 위한 Repository입니다.<br>
+                     <a href="https://github.com/cat1544/ING">Online Boutique Source &amp; Build files</a><br></p>
+
+                     <div class="bottom-margin"></div>
+
+                     <hr />
 
                      <!-- <img src="../assets/img/boutique/terraform.jpg" alt="Terraform Folder" style="width: 400px; height: 330px;"> -->
-                     <img src="../assets/img/boutique/cicd.jpg" alt="CI/CD flow" style="width: 1389px; height: 338px;">
+                     <!-- <img src="../assets/img/boutique/cicd.jpg" alt="CI/CD flow" style="width: 900px; height: 230px;"> -->
 
                {% endcase %}
             </div>
