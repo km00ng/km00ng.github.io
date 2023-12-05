@@ -39,14 +39,14 @@ comments: false
             </div>
         </div>
 
-        <!-- JavaScript -->
+        <!-- Docker -->
         <div class="col-12 col-sm-6 col-md-4 mb-4 service-item" onclick="toggleDescription('js')">
-            <img class="rounded-circle img-fluid" src="../assets/img/svc/js.jpg" alt="JavaScript Icon" style="width: 100px; height: 100px;">
-            <h4 class="service-heading"><p>JavaScript</p></h4>
+            <img class="rounded-circle img-fluid" src="../assets/img/svc/docker.png" alt="Docker Icon" style="width: 100px; height: 100px;">
+            <h4 class="service-heading"><p>Docker</p></h4>
             <p>Click to view details</p>
             <div class="text-muted">
                 <p id="jsDescription" class="hidden-description" style="display: none;">
-                    JavaScript를 이용하여 웹사이트의 동적인 요소를 구현해 본 경험이 있습니다. Node.js를 사용하여 서버 사이드 애플리케이션을 구현해 본 경험이 있습니다.
+                    Docker 컨테이너 기술을 이용하여 애플리케이션을 구성하고 배포해 본 경험이 있습니다.
                 </p>
             </div>
         </div>
@@ -58,7 +58,7 @@ comments: false
             <p>Click to view details</p>
             <div class="text-muted">
                 <p id="kubernetesDescription" class="hidden-description" style="display: none;">
-                    Kubernetes 클러스터를 구성하고, 파드, 서비스, 볼륨 등의 리소스를 관리할 수 있습니다. Docker 컨테이너 기술을 이용하는 애플리케이션을 구성하고 배포해 본 경험이 있습니다.
+                    Kubernetes 클러스터를 구성하고, 파드, 서비스, 볼륨 등의 리소스를 관리할 수 있습니다.
                 </p>
             </div>
         </div>
@@ -82,7 +82,8 @@ comments: false
             <p>Click to view details</p>
             <div class="text-muted">
                 <p id="terraformDescription" class="hidden-description" style="display: none;">
-                    Terraform을 이용하여 AWS의 클라우드 서비스를 구성하고 프로비저닝할 수 있습니다. Terraform을 사용하여 IaC(Infrastructure as Code)를 구현하고, 인프라스럭처의 버전 관리 및 변경 이력 추적을 할 수 있습니다.
+                    Terraform을 이용하여 GCP의 클라우드 서비스를 구성하고 프로비저닝할 수 있습니다. 
+                    GCS를 백엔드로 구성해 인프라스럭처의 버전 관리 및 변경 이력 추적을 할 수 있습니다.
                 </p>
             </div>
         </div>
@@ -139,8 +140,8 @@ comments: false
 
         <!-- New Skill 1 -->
         <div class="col-12 col-sm-4 mb-4 service-item">
-            <img class="rounded-circle img-fluid" src="../assets/img/svc/ap.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
-            <h4 class="service-heading"><p>Apache</p></h4>
+            <img class="rounded-circle img-fluid" src="../assets/img/svc/aws.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
+            <h4 class="service-heading"><p>AWS</p></h4>
         </div>
 
         <!-- New Skill 2 -->
@@ -157,14 +158,14 @@ comments: false
 
         <!-- New Skill 4 -->
         <div class="col-12 col-sm-4 mb-4 service-item">
-            <img class="rounded-circle img-fluid" src="../assets/img/svc/sv.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
-            <h4 class="service-heading"><p>Serverless<br /><br /></p></h4>
+            <img class="rounded-circle img-fluid" src="../assets/img/svc/jenkins.png" alt="Service Icon" style="width: 100px; height: 100px;">
+            <h4 class="service-heading"><p>Jnekins<br /><br /></p></h4>
         </div>
 
         <!-- New Skill 5 -->
         <div class="col-12 col-sm-4 mb-4 service-item">
-            <img class="rounded-circle img-fluid" src="../assets/img/svc/ex.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
-            <h4 class="service-heading"><p>Express</p></h4>
+            <img class="rounded-circle img-fluid" src="../assets/img/svc/argocd.png" alt="Service Icon" style="width: 100px; height: 100px;">
+            <h4 class="service-heading"><p>ArgoCD</p></h4>
         </div>
 
         <!-- New Skill 6 -->
