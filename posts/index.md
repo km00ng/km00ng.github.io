@@ -27,14 +27,14 @@ comments: false
 <div class="container">
     <div class="row text-center service-container">
 
-        <!-- AWS -->
-        <div class="col-12 col-sm-6 col-md-4 mb-4 service-item" onclick="toggleDescription('aws')">
-            <img class="rounded-circle img-fluid" src="../assets/img/svc/aws.jpg" alt="AWS Icon" style="width: 100px; height: 100px;">
-            <h4 class="service-heading"><p>AWS</p></h4>
+        <!-- GCP -->
+        <div class="col-12 col-sm-6 col-md-4 mb-4 service-item" onclick="toggleDescription('gcp')">
+            <img class="rounded-circle img-fluid" src="../assets/img/svc/gcp.jpg" alt="GCP Icon" style="width: 100px; height: 100px;">
+            <h4 class="service-heading"><p>GCP</p></h4>
             <p>Click to view details</p>
             <div class="text-muted">
                 <p id="awsDescription" class="hidden-description" style="display: none;">
-                    AWS 아키텍처를 구성한 뒤, 직접 생성하고 연결할 수 있습니다. 보안을 위해 VPC 및 서브넷을 생성하고, 역할과 정책을 구성할 수 있습니다.
+                    GCP 아키텍처를 구성한 뒤, 직접 생성하고 연결할 수 있습니다. 보안을 위해 VPC 및 서브넷을 생성하고, 역할과 정책을 구성할 수 있습니다.
                 </p>
             </div>
         </div>
