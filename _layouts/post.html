@@ -112,7 +112,7 @@
                      <img src="https://img.shields.io/badge/BigQuery-669DF6?stylefor-the-badge&logo=Google BigQuery&logoColor=FAFAFA"/> 
                      <img src="https://img.shields.io/badge/Looker-4285F4?stylefor-the-badge&logo=Looker&logoColor=FAFAFA"/><br>
                      <img src="https://img.shields.io/badge/ArgoCD-EF7B4D?stylefor-the-badge&logo=Argo&logoColor=FAFAFA"/>
-                     <img src="https://img.shields.io/badge/Terraform-844FBA?stylefor-the-badge&logo=Terraform&logoColor=000000"/>
+                     <img src="https://img.shields.io/badge/Terraform-844FBA?stylefor-the-badge&logo=Terraform&logoColor=FAFAFA"/>
                      <!-- <img src="https://img.shields.io/badge/Locust-C71A36?stylefor-the-badge&logo=Apache Maven&logoColor=FAFAFA"/> -->
                      <img src="https://img.shields.io/badge/Slack-4A154B?stylefor-the-badge&logo=Slack&logoColor=FAFAFA"/>
                         <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=stylefor-the-badge&logo=PostgreSQL&logoColor=FAFAFA"/>
@@ -121,11 +121,21 @@
                      
                      <hr />
 
-                     <p><br /></p>
+                     <br/>
                      <h2 id="Architecture">Architecture</h2>
                      <div class="bottom-margin"></div>
 
                      <img src="../assets/img/boutique/architecture.jpg" alt="Boutique Architecture" style="width: 900px; height: 300px;">
+
+                     <p>GKE를 이용하여 마이크로 서비스를 배포합니다.<br>
+                     개발계와 운영계를 VPC 레벨에서 분리했으며 각 환경에는 하나의 클러스터 내 두개의 노드풀(Service, ArgoCD)로 구성되어있습니다.<br>
+                     Kubernetes 내 리소스는 환경별 Bastion VM에서만 제어할 수 있습니다.<br>
+                     데이터베이스는 Cloud SQL-PostgreSQL을 사용하며 환경과 목적에 따라 LB와 도메인을 구분하여 사용합니다.<br></p>
+                        
+                     <hr />
+
+
+
                      <!-- <img src="../assets/img/boutique/terraform.jpg" alt="Terraform Folder" style="width: 400px; height: 330px;"> -->
                      <img src="../assets/img/boutique/cicd.jpg" alt="CI/CD flow" style="width: 1389px; height: 338px;">
 
