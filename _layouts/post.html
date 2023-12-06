@@ -11,12 +11,16 @@
             <div class="post-title">
                <h1>{{ page.title }}</h1>
                {% case page.title %}
+               <div class="bottom-margin"></div>
                   {% when 'Address Book' %}
+                     <br>
                      <h2 id="summary">Summary</h2>
                      <div class="bottom-margin"></div>
                      
-                     <p>멀티 AZ로 구축된 DB와 연동된 전화번호부 웹 서비스를 운영합니다.<br>
-                     모든 리소스는 AWS 인프라에 Terraform으로 구축했습니다.</p>
+                     <p style="font-weight: normal;">온라인 쇼핑몰<br>
+                     사용자는 페이지 접속 후, 사용자 정보와 구매할 도서 정보를 입력하게 됩니다.<br>
+                     서버는 Docker image를 이용하여 K8s를 구축했습니다.<br>
+                     데이터베이스는 GCP를 이용하여 구축했습니다.<br></p>
                      
                      <p><br />
                      <br /></p>
@@ -34,13 +38,47 @@
                      <h2 id="tools--library">Tools &amp; Library</h2>
                      <div class="bottom-margin"></div>
                      <p><img src="https://img.shields.io/badge/AWS-232F3E?stylefor-the-badge&logo=Amazon AWS&logoColor=FAFAFA"/>
-                     <img src="https://img.shields.io/badge/Apache-D22128?stylefor-the-badge&logo=Apache&logoColor=FAFAFA"/>
-                     <img src="https://img.shields.io/badge/PHP-777BB4?style=stylefor-the-badge&logo=PHP&logoColor=FAFAFA"/>
-                     <img src="https://img.shields.io/badge/MySQL-4479A1?style=stylefor-the-badge&logo=MySQL&logoColor=FAFAFA"/>
-                     <img src="https://img.shields.io/badge/Terraform-844FBA?stylefor-the-badge&logo=Terraform&logoColor=FAFAFA"/> 
+                        <img src="https://img.shields.io/badge/Apache-D22128?stylefor-the-badge&logo=Apache&logoColor=FAFAFA"/>
+                        <img src="https://img.shields.io/badge/PHP-777BB4?style=stylefor-the-badge&logo=PHP&logoColor=FAFAFA"/>
+                        <img src="https://img.shields.io/badge/MySQL-4479A1?style=stylefor-the-badge&logo=MySQL&logoColor=FAFAFA"/>
+                        <img src="https://img.shields.io/badge/Terraform-844FBA?stylefor-the-badge&logo=Terraform&logoColor=FAFAFA"/>
                      <br />
                      <br /></p>
                      
+                     <hr />
+
+                     <br/>
+                     <h2 id="Architecture">Architecture</h2>
+                     <div class="bottom-margin"></div>
+
+                     <img src="../assets/img/addrbook/architecture.png" alt="Address Book Architecture" style="width: 900px; height: 500px;">
+
+                     <br>
+
+                     <p style="font-weight: normal;">GKE를 이용하여 마이크로 서비스를 배포합니다.<br>
+                     개발계와 운영계를 VPC 레벨에서 분리했으며<br>
+                     각 환경에는 하나의 클러스터 내 두개의 노드풀(Service, ArgoCD)로 구성되어있습니다.<br>
+                     Kubernetes 내 리소스는 환경별 Bastion VM에서만 제어할 수 있습니다.<br>
+                     데이터베이스는 Cloud SQL-PostgreSQL을 사용하며 환경과 목적에 따라 LB와 도메인을 구분하여 사용합니다.<br></p>
+
+                     <p><br />
+                     <br /></p>
+
+                     <hr />
+
+                     <br>
+
+                     <h2 id="Repo">Github Repository</h2>
+                     <div class="bottom-margin"></div>
+
+                     <p style="font-weight: normal;">Terraform 파일 관리를 위한 Repository입니다.<br></p>
+                     <a href="https://github.com/km00ng/address_book">Terraform files</a><br>
+
+                     <div class="bottom-margin"></div>
+
+                     <p><br />
+                     <br /></p>
+
                      <hr />
                   {% when 'Petclinic' %}
                      <h2 id="summary">Summary</h2>
