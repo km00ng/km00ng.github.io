@@ -7,7 +7,9 @@ comments: false
 ---
 
 ## Features
-* 간단한 자기소개
+> 클라우드 엔지니어 권민경입니다.<br>
+> ㅇ.<br>
+> 
 <hr>
 <br>
 <br>
