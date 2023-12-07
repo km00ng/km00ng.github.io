@@ -101,44 +101,70 @@
 
                      <hr />
                   {% when 'Petclinic' %}
-                     <h2 id="summary">Summary</h2>
-                     <div class="bottom-margin"></div>
-                     
-                     <p>우리 페이지는 도서 구매 예약 시스템을 운영합니다.<br>
-                     사용자는 페이지 접속 후, 사용자 정보와 구매할 도서 정보를 입력하게 됩니다.<br>
-                     서버는 Docker image를 이용하여 K8s를 구축했습니다.<br>
-                     데이터베이스는 GCP를 이용하여 구축했습니다.<br>
-                     (현 프로젝트는 제공받은 Petclinic 코드를 일부 수정하여 진행했습니다.)</p>
-                     
-                     <p><br />
-                     <br /></p>
-                     
-                     <hr />
-                     
-                     <p><br /></p>
-                     
-                     <style>
-                        .bottom-margin {
-                           margin-bottom: 30px;
-                        }
-                     </style>
-                     
-                     <h2 id="tools--library">Tools &amp; Library</h2>
-                     <div class="bottom-margin"></div>
-                     <p><img src="https://img.shields.io/badge/GCP-4285F4?stylefor-the-badge&logo=Google Cloud&logoColor=FAFAFA"/>
-                     <img src="https://img.shields.io/badge/Docker-2496ED?stylefor-the-badge&logo=Docker&logoColor=FAFAFA"/> 
-                     <img src="https://img.shields.io/badge/Kubernetes-326CE5?stylefor-the-badge&logo=Kubernetes&logoColor=FAFAFA"/> 
-                     <img src="https://img.shields.io/badge/BigQuery-669DF6?stylefor-the-badge&logo=Google BigQuery&logoColor=FAFAFA"/> 
-                     <img src="https://img.shields.io/badge/Looker-4285F4?stylefor-the-badge&logo=Looker&logoColor=FAFAFA"/><br>
-                     <img src="https://img.shields.io/badge/Apache-D22128?stylefor-the-badge&logo=Apache&logoColor=FAFAFA"/>
-                     <img src="https://img.shields.io/badge/Tomcat-F8DC75?stylefor-the-badge&logo=Apache Tomcat&logoColor=000000"/>
-                     <img src="https://img.shields.io/badge/Maven-C71A36?stylefor-the-badge&logo=Apache Maven&logoColor=FAFAFA"/>
-                     <img src="https://img.shields.io/badge/JMeter-D22128?stylefor-the-badge&logo=Apache JMeter&logoColor=FAFAFA"/>
-                        <img src="https://img.shields.io/badge/MySQL-4479A1?style=stylefor-the-badge&logo=MySQL&logoColor=FAFAFA"/>
-                     <br />
-                     <br /></p>
-                     
-                     <hr />
+                  <br>
+                  <h2 id="summary">Summary</h2>
+                  <div class="bottom-margin"></div>
+                  <img src="../assets/img/petclinic/k8s_architecture.png" alt="Petclinic Architecture" style="width: 500px; height: 650px;">
+                  <br>
+                  <p style="font-weight: normal;">전자상거래 사이트 운영을 위한 인프라를 구축합니다.<br>
+                  서버는 컨테티너 환경으로 구축했으며, 데이터베이스는 GCP 서비스를 사용합니다. <br>
+                  구성은 다음과 같습니다.<br>
+                  * WEB : Apache<br>
+                  * WAS : Apache Tomcat<br>
+                  * DB : CloudSQL-MySQL <br></p>
+                  <a href="https://github.com/GoogleCloudPlatform/microservices-demo">Google Cloud Platform에서 제공하는 Petclinic</a><p style="font-weight: normal;">소스를 활용해 구축했습니다</p>
+                  
+                  <p><br />
+                  <br /></p>
+                  
+                  <hr />
+                  
+                  <p><br /></p>
+                  
+                  <style>
+                     .bottom-margin {
+                        margin-bottom: 30px;
+                     }
+                  </style>
+                  
+                  <h2 id="tools--library">Tools &amp; Library</h2>
+                  <div class="bottom-margin"></div>
+                  <p><img src="https://img.shields.io/badge/GCP-4285F4?stylefor-the-badge&logo=Google Cloud&logoColor=FAFAFA"/>
+                  <img src="https://img.shields.io/badge/Docker-2496ED?stylefor-the-badge&logo=Docker&logoColor=FAFAFA"/> 
+                  <img src="https://img.shields.io/badge/Kubernetes-326CE5?stylefor-the-badge&logo=Kubernetes&logoColor=FAFAFA"/> 
+                  <img src="https://img.shields.io/badge/BigQuery-669DF6?stylefor-the-badge&logo=Google BigQuery&logoColor=FAFAFA"/> 
+                  <img src="https://img.shields.io/badge/Looker-4285F4?stylefor-the-badge&logo=Looker&logoColor=FAFAFA"/><br>
+                  <img src="https://img.shields.io/badge/ArgoCD-EF7B4D?stylefor-the-badge&logo=Argo&logoColor=FAFAFA"/>
+                  <img src="https://img.shields.io/badge/Terraform-844FBA?stylefor-the-badge&logo=Terraform&logoColor=FAFAFA"/>
+                  <!-- <img src="https://img.shields.io/badge/Locust-C71A36?stylefor-the-badge&logo=Apache Maven&logoColor=FAFAFA"/> -->
+                  <img src="https://img.shields.io/badge/Slack-4A154B?stylefor-the-badge&logo=Slack&logoColor=FAFAFA"/>
+                     <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=stylefor-the-badge&logo=PostgreSQL&logoColor=FAFAFA"/>
+                  <br />
+
+                  <p><br />
+                  <br /></p>
+
+                  <hr />
+
+                  <br>
+
+                  <h2 id="Repo">Deploy</h2>
+                  <div class="bottom-margin"></div>
+                  
+                  <h3 id="github">Github Repository</h3>
+                  <p style="font-weight: normal;">소스코드와 Dockerfile을 관리하는 Git Repository입니다.<br></p>
+                  <a href="https://github.com/cat1544/ING_k8s">Petclinic SourceCode &amp; Manifests</a><br>
+                  <h3 id="notion">Deploy</h3>
+                  <p style="font-weight: normal;">구현 방법을 확인할 수 있는  Notion 페이지입니다.<br></p>
+                  <a href="https://github.com/cat1544/ING">Notion</a><br>
+
+                  <div class="bottom-margin"></div>
+
+                  <p><br />
+                  <br /></p>
+
+                  <hr />
+
                   {% else %}
                      <br>
                      <h2 id="summary">Summary</h2>
