@@ -152,8 +152,8 @@ comments: false
 
         <!-- New Skill 3 -->
         <div class="col-12 col-sm-4 mb-4 service-item">
-            <img class="rounded-circle img-fluid" src="../assets/img/svc/js.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
-            <h4 class="service-heading"><p>Java Script</p></h4>
+            <img class="rounded-circle img-fluid" src="../assets/img/svc/ap.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
+            <h4 class="service-heading"><p>Apache</p></h4>
         </div>
 
         <!-- New Skill 4 -->
