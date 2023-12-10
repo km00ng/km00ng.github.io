@@ -5,7 +5,7 @@ excerpt: "A List of Skills"
 comments: false
 ---
 
-<h2 style="text-align: center;">저는 주로 이것을 사용합니다</h2>
+<h2 style="text-align: center;">frequently used Tools</h2>
 
 <style>
     /* Added custom styles for the image container */
@@ -34,7 +34,8 @@ comments: false
             <p>Click to view details</p>
             <div class="text-muted">
                 <p id="gcpDescription" class="hidden-description" style="display: none;">
-                    GCP 아키텍처를 구성한 뒤, 직접 생성하고 연결할 수 있습니다. 보안을 위해 VPC 및 서브넷을 생성하고, 역할과 정책을 구성할 수 있습니다.
+                    GCP의 다양한 서비스를 활용하여 인프라를 구축하고 관리할 수 있습니다.
+                     IAM을 이용하여 보안을 강화하고 리소스에 접근하는 권한을 제어할 수 있습니다.
                 </p>
             </div>
         </div>
@@ -46,7 +47,7 @@ comments: false
             <p>Click to view details</p>
             <div class="text-muted">
                 <p id="jsDescription" class="hidden-description" style="display: none;">
-                    Docker 컨테이너 기술을 이용하여 애플리케이션을 구성하고 배포해 본 경험이 있습니다.
+                    Docker 컨테이너 기술을 이용하여 애플리케이션을 구성하고 배포할 수 있습니다.
                 </p>
             </div>
         </div>
@@ -58,7 +59,8 @@ comments: false
             <p>Click to view details</p>
             <div class="text-muted">
                 <p id="kubernetesDescription" class="hidden-description" style="display: none;">
-                    Kubernetes 클러스터를 구성하고, 파드, 서비스, 볼륨 등의 리소스를 관리할 수 있습니다.
+                    Kubernetes 클러스터를 구성하여 애플리케이션을 배포하고 관리할 수 있습니다.
+                    스케일링과 업데이트 정책을 설정하여 서비스의 안정적인 애플리케이션 배포를 수행할 수 있습니다.
                 </p>
             </div>
         </div>
@@ -70,7 +72,8 @@ comments: false
             <p>Click to view details</p>
             <div class="text-muted">
                 <p id="linuxDescription" class="hidden-description" style="display: none;">
-                    Linux 커맨드 라인 인터페이스(CLI)를 이용하여 파일 및 디렉토리 작업, 패키지 설치, 서비스 제어 등을 수행할 수 있습니다. Linux에서 사용되는 Ubuntu를 설치하고 구성하는 방법을 알고 있습니다.
+                    Linux CLI를 이용하여 파일 및 디렉토리 관리와 소프트웨어 설치, 시스템 설정 등을 수행할 수 있습니다.
+                    원격 서버에 SSH를 통해 접속하여 원격 작업을 처리할 수 있습니다. 
                 </p>
             </div>
         </div>
@@ -82,8 +85,8 @@ comments: false
             <p>Click to view details</p>
             <div class="text-muted">
                 <p id="terraformDescription" class="hidden-description" style="display: none;">
-                    Terraform을 이용하여 GCP의 클라우드 서비스를 구성하고 프로비저닝할 수 있습니다. 
-                    GCS를 백엔드로 구성해 인프라스럭처의 버전 관리 및 변경 이력 추적을 할 수 있습니다.
+                    Terraform을 이용하여 클라우드 인프라를 배포하고 관리할 수 있습니다. 
+                    원격 파일 저장소를 구성해 버전을 관리하고 변경 사항을 추적할 수 있습니다.
                 </p>
             </div>
         </div>
@@ -95,7 +98,7 @@ comments: false
             <p>Click to view details</p>
             <div class="text-muted">
                 <p id="vscodeDescription" class="hidden-description" style="display: none;">
-                    VS Code를 사용하여 코드 편집, 버전 관리, 플러그인 관리 등 다양한 작업을 수행할 수 있습니다. VS Code의 단축키와 명령어를 이용하여 더욱 효율적으로 코드 작업을 수행할 수 있습니다.
+                    VS Code를 사용하여 효율적으로 코드를 작성 및 관리할 수 있습니다.
                 </p>
             </div>
         </div>
@@ -115,7 +118,7 @@ comments: false
 </script>
 <br>
 <br>
-<h2 style="text-align: center;">저는 이것을 사용한 적이 있습니다</h2>
+<h2 style="text-align: center;">Experienced Tools</h2>
 
 <style>
     /* Added custom styles for the second image container */
@@ -159,7 +162,7 @@ comments: false
         <!-- New Skill 4 -->
         <div class="col-12 col-sm-4 mb-4 service-item">
             <img class="rounded-circle img-fluid" src="../assets/img/svc/jenkins.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
-            <h4 class="service-heading"><p>Jnekins<br /><br /></p></h4>
+            <h4 class="service-heading"><p>Jenkins<br /><br /></p></h4>
         </div>
 
         <!-- New Skill 5 -->
@@ -170,45 +173,8 @@ comments: false
 
         <!-- New Skill 6 -->
         <div class="col-12 col-sm-4 mb-4 service-item">
-            <img class="rounded-circle img-fluid" src="../assets/img/svc/fa.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
-            <h4 class="service-heading"><p>Fastify</p></h4>
+            <img class="rounded-circle img-fluid" src="../assets/img/svc/github.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
+            <h4 class="service-heading"><p>Github</p></h4>
         </div>
-
-        <!-- New Skill 7 -->
-        <div class="col-12 col-sm-4 mb-4 service-item">
-            <img class="rounded-circle img-fluid" src="../assets/img/svc/slack.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
-            <h4 class="service-heading"><p>Slack</p></h4>
-        </div>
-
-        <!-- New Skill 8 -->
-        <div class="col-12 col-sm-4 mb-4 service-item">
-            <img class="rounded-circle img-fluid" src="../assets/img/svc/gi.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
-            <h4 class="service-heading"><p>GitHub Actions<br /><br /></p></h4>
-        </div>
-
-        <!-- New Skill 9 -->
-        <div class="col-12 col-sm-4 mb-4 service-item">
-            <img class="rounded-circle img-fluid" src="../assets/img/svc/sq.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
-            <h4 class="service-heading"><p>MySQL</p></h4>
-        </div>
-
-        <!-- New Skill 10 -->
-        <div class="col-12 col-sm-4 mb-4 service-item">
-            <img class="rounded-circle img-fluid" src="../assets/img/svc/mo.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
-            <h4 class="service-heading"><p>MongoDB</p></h4>
-        </div>
-
-        <!-- New Skill 11 -->
-        <div class="col-12 col-sm-4 mb-4 service-item">
-            <img class="rounded-circle img-fluid" src="../assets/img/svc/pr.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
-            <h4 class="service-heading"><p>Prometheus</p></h4>
-        </div>
-
-        <!-- New Skill 12 -->
-        <div class="col-12 col-sm-4 mb-4 service-item">
-            <img class="rounded-circle img-fluid" src="../assets/img/svc/gr.jpg" alt="Service Icon" style="width: 100px; height: 100px;">
-            <h4 class="service-heading"><p>Grafana</p></h4>
-        </div>
-
     </div>
 </div>
